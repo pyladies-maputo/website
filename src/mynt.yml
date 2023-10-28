@@ -1,0 +1,41 @@
+#
+# BASE CONFIGURATION
+#
+
+# `base_url` should only be changed if your site isn't hosted at the root of a domain.
+# `domain` is used to generate absolute URLs. (required to generate a valid feed)
+#
+#   Example:
+#       https://my-site.com/
+#           base_url: /
+#           domain: https://my-site.com
+#       http://my-site.com/my-blog/
+#           base_url: /my-blog/
+#           domain: http://my-site.com
+base_url: /
+domain: https://maputo.pyladies.com
+
+#
+# METADATA
+#
+
+# Used in header meta tags and the site feed. (required to generate a valid feed)
+author: PyLadies Maputo Core Team
+# A description of your site to be used in header meta tags.
+description:
+# Used in the site feed.
+email: maputo@pyladies.com
+# Your site's subtitle.
+subtitle: Python Community
+# Your site's title. (required to generate a valid feed)
+title: PyLadies Maputo
+
+#
+# CONTENT SETTINGS
+#
+event_layout: event.html
+events_url: /events/
+
+
+dynamic_content: true
+dynamic_folder: content/dynamic

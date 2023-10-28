@@ -1,0 +1,25 @@
+pre {
+  padding: 0px 3px;
+  background-color: #1f1f1f;
+  font-family: "Envy Code R", "Ubuntu Mono", monospace;
+}
+
+
+
+code {
+  padding: 0px 3px;
+  background-color: #1f1f1f;
+  color: #a6a6a6;
+  font-family: "Envy Code R", "Ubuntu Mono", monospace;
+  line-height: 17px;
+  white-space: pre;
+}
+pre code {
+  padding: 0px;
+  background-color: transparent;
+  color: #f8f8f2;
+  line-height: 18px;
+}
+table code {
+  background-color: #1a1a1a;
+}

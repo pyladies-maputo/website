@@ -1,0 +1,10 @@
+{% extends 'layout.html' %} {% block body %}
+<div class="post-list">
+  {% for event in posts %}
+  <h1 class="post-title">
+    <a href="{{ get_url(event.url) }}">{{ event.title }}</a>
+  </h1>
+  <h2 class="post-meta">{{ event.description }}</h2>
+  {% endfor %}
+</div>
+{% endblock %}

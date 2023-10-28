@@ -1,0 +1,8 @@
+# output dirs
+dist
+output
+build
+
+# enviroment
+venv
+.env
